@@ -110,9 +110,9 @@ USUARIOS ||--o{ TAREAS : tiene
 
 
 
-## 7. Desarrollo técnico y código
+# 7. Desarrollo técnico y código
 
-# 5. Estructura del proyecto
+## . Estructura del proyecto
 Recomendamos organizar el proyecto en cuatro archivos principales:
 
 ```
