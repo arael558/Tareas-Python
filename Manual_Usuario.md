@@ -1,12 +1,11 @@
-# 📘 Manual de Usuario – Sistema de Gestión de Usuarios y Tareas  
+<img width="293" height="432" alt="image" src="https://github.com/user-attachments/assets/1fa431d7-b44d-473c-b361-003209fe7577" /># 📘 Manual de Usuario – Sistema de Gestión de Usuarios y Tareas  
 
 ---
 
 ## 📑 Portada  
 **Sistema de Gestión de Usuarios y Tareas**  
 Manual de Usuario  
-Desarrollador: *[Tu nombre]*  
-Fecha: *[dd/mm/aaaa]*  
+
 
 ---
 
@@ -74,7 +73,8 @@ Brindar a los usuarios una herramienta sencilla y funcional para gestionar usuar
 ### 2. Registrar una tarea  
 1. Ingresa **título, descripción, prioridad** e **ID de usuario asignado**.  
 2. Haz clic en **Registrar Tarea**.  
-3. La tarea se guardará en la base de datos.  
+3. La tarea se guardará en la base de datos.<img width="293" height="432" alt="image" src="https://github.com/user-attachments/assets/cf03bbd0-b6cd-4d04-92a9-882d541f74a6" />
+
 
 ### 3. Consultar tareas  
 1. Haz clic en **Mostrar todas las tareas**.  
@@ -98,13 +98,5 @@ Haz clic en **Resumen de Tareas por Usuario** para ver cuántas tareas tiene cad
 
 ---
 
-## ✅ Recomendaciones finales  
-- Haz copias de seguridad del archivo `tareas.db`.  
-- No elimines ni cambies de nombre los archivos principales (`main.exe` y `tareas.db`).  
-- Si tienes errores, verifica que todos los archivos estén en la misma carpeta.  
 
----
-
-📂 **Entrega final:**  
-Guarda este manual en formato digital (PDF o .md) y colócalo en la misma carpeta junto al ejecutable (`main.exe`) antes de tu certificación.  
 
