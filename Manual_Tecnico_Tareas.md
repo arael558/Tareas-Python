@@ -5,14 +5,12 @@
 2. Objetivo general  
 3. Objetivos específicos  
 4. Requerimientos de instalación  
-5. Estructura del proyecto  
 6. Diagramas técnicos  
    - Diagrama de clases  
    - Diagrama Entidad–Relación  
-7. Desarrollo técnico y código  
+7. Desarrollo y código  de la aplicación 
 8. Procedimiento de instalación y ejecución  
 9. Generación del ejecutable  
-10. Lista de cotejo  
 
 ---
 
@@ -59,30 +57,9 @@ Desarrollar y documentar un sistema CRUD completo para la gestión de usuarios y
   pyinstaller
   ```
 
----
 
-## 5. Estructura del proyecto
-Recomendamos organizar el proyecto en cuatro archivos principales:
 
-```
-proyecto_tareas/
-│  main.py       # Interfaz Tkinter
-│  crud.py       # Funciones de base de datos (CRUD)
-│  models.py     # Clases Usuario y Tarea
-│  db.py         # Conexión SQLite y creación de tablas
-│  requirements.txt
-└─ tareas.db     # Base de datos SQLite
-```
-
-Esta estructura facilita la explicación durante la certificación:  
-- `models.py`: define las clases (corresponde al diagrama UML).  
-- `crud.py`: contiene las consultas SQL (inserción, eliminación, actualización, selección).  
-- `main.py`: muestra la integración en una interfaz gráfica.  
-- `db.py`: centraliza la creación de tablas y conexión con SQLite.  
-
----
-
-## 6. Diagramas técnicos
+## 5. Diagramas técnicos
 ### 6.1. Diagrama de clases (UML)
 ```mermaid
 classDiagram
@@ -129,7 +106,29 @@ USUARIOS ||--o{ TAREAS : tiene
 
 ---
 
+---
+
+
+
 ## 7. Desarrollo técnico y código
+
+# 5. Estructura del proyecto
+Recomendamos organizar el proyecto en cuatro archivos principales:
+
+```
+proyecto_tareas/
+│  main.py       # Interfaz Tkinter
+│  crud.py       # Funciones de base de datos (CRUD)
+│  models.py     # Clases Usuario y Tarea
+│  db.py         # Conexión SQLite y creación de tablas
+│  requirements.txt
+└─ tareas.db     # Base de datos SQLite
+```
+
+
+
+---
+
 - **db.py:** crea la base `tareas.db` y define las tablas.  
 - **models.py:** clases `Usuario` y `Tarea` con atributos y métodos.  
 - **crud.py:** operaciones CRUD (`INSERT`, `UPDATE`, `DELETE`, `SELECT`) y consultas avanzadas (`JOIN`, `GROUP BY`).  
@@ -171,15 +170,3 @@ USUARIOS ||--o{ TAREAS : tiene
 
 ---
 
-## 10. Lista de cotejo
-Antes de entregar, verifica que tu manual técnico:  
-- [x] Incluye **diagramas UML y ER**.  
-- [x] Explica la **estructura de archivos**.  
-- [x] Describe los **requerimientos de instalación**.  
-- [x] Contiene instrucciones claras de instalación y ejecución.  
-- [x] Explica cómo generar el **ejecutable `.exe`**.  
-- [x] Se encuentra en un único documento digital junto con el proyecto.  
-
----
-
-📌 **Recomendación final**: guarda este manual en formato PDF y colócalo en la misma carpeta que el producto ejecutable (Producto 2.1). Así tendrás tu entrega lista para la certificación.
