@@ -1,4 +1,4 @@
-<img width="293" height="432" alt="image" src="https://github.com/user-attachments/assets/1fa431d7-b44d-473c-b361-003209fe7577" /># 📘 Manual de Usuario – Sistema de Gestión de Usuarios y Tareas  
+
 
 ---
 
